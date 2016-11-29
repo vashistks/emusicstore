@@ -9,7 +9,27 @@
 
             <p class="lead">Please fill in your information below:</p>
         </div>
+        <script type="text/javascript">
+            function validate()
+            {
+                console.log("called");
+                var a = document.getElementById("username").value;
+                //var b = document.getElementById("name");
+                console.log(a);
+                var script = "<script>";
+                console.log(script);
+                var valid = true;
+                if(a == script)
+                {
+                    console.log("prevented");
+                    alert("Hack prevented");
+                    valid = false;
+                }
 
+                //return valid;
+            };
+
+        </script>
         <form:form action="${pageContext.request.contextPath}/register" method="post"
                    commandName="customer">
 
@@ -41,7 +61,6 @@
             <label for="password">Password</label><form:errors path="password" cssStyle="color: #ff0000"/>
             <form:password path="password" id="password" class="form-Control"/>
         </div>
-
 
         <h3>Billing Address</h3>
 
@@ -109,7 +128,7 @@
         </div>
 
         <br><br>
-        <input type="submit" value="submit" class="btn btn-default">
+        <input type="submit" value="submit" class="btn btn-default" onclick="JavaScript:validate()">
         <a href="<c:url value="/" />" class="btn btn-default">Cancel</a>
         </form:form>
 

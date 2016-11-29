@@ -15,9 +15,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import javax.validation.Valid;
 import java.util.List;
 
-/**
- * Created by Le on 1/25/2016.
- */
 
 @Controller
 public class RegisterController {
@@ -53,6 +50,12 @@ public class RegisterController {
         for (int i=0; i< customerList.size(); i++) {
             if(customer.getCustomerEmail().equals(customerList.get(i).getCustomerEmail())) {
                 model.addAttribute("emailMsg", "Email already exists");
+
+                return "registerCustomer";
+            }
+
+            if(customer.getUsername().equals("<script>")) {
+                model.addAttribute("usernameMsg", "Not allowed");
 
                 return "registerCustomer";
             }
