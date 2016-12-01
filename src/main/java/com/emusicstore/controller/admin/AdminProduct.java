@@ -21,10 +21,6 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
-/**
- * Created by Le on 1/24/2016.
- */
-
 @Controller
 @RequestMapping("/admin")
 public class AdminProduct {
