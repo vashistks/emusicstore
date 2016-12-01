@@ -12,10 +12,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 import java.io.IOException;
 import java.util.List;
 
-/**
- * Created by Le on 1/24/2016.
- */
-
 @Controller
 @RequestMapping("/product")
 public class ProductController {

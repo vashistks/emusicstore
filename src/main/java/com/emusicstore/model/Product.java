@@ -11,9 +11,6 @@ import javax.validation.constraints.Pattern;
 import java.io.Serializable;
 import java.util.List;
 
-/**
- * Created by Le on 1/2/2016.
- */
 
 @Entity
 public class Product implements Serializable{

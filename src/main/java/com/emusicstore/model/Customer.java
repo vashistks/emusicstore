@@ -6,9 +6,6 @@ import org.hibernate.validator.constraints.NotEmpty;
 import javax.persistence.*;
 import java.io.Serializable;
 
-/**
- * Created by Le on 1/24/2016.
- */
 
 @Entity
 public class Customer implements Serializable{

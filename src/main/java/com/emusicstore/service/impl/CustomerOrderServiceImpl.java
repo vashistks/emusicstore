@@ -11,10 +11,6 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-/**
- * Created by Le on 1/25/2016.
- */
-
 @Service
 public class CustomerOrderServiceImpl implements CustomerOrderService {
 

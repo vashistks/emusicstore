@@ -1,6 +1,3 @@
-/**
- * Created by Le on 1/11/2016.
- */
 
 var cartApp = angular.module ("cartApp", []);
 

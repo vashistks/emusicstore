@@ -17,10 +17,6 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-/**
- * Created by Le on 1/25/2016.
- */
-
 @Controller
 @RequestMapping("/rest/cart")
 public class CartResources {

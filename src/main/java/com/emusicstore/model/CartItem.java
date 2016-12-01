@@ -5,9 +5,6 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 import javax.persistence.*;
 import java.io.Serializable;
 
-/**
- * Created by Le on 1/11/2016.
- */
 @Entity
 public class CartItem implements Serializable{
 

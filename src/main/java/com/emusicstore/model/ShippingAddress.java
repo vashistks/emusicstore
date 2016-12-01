@@ -6,9 +6,7 @@ import javax.persistence.Id;
 import javax.persistence.OneToOne;
 import java.io.Serializable;
 
-/**
- * Created by Le on 1/24/2016.
- */
+
 @Entity
 public class ShippingAddress implements Serializable{
 

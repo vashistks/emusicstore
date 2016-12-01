@@ -11,7 +11,6 @@
             "oSearch": {"sSearch": searchCondition}
         });
     });
-
 </script>
 
 <div class="container-wrapper">
@@ -21,10 +20,10 @@
 
             <p class="lead">Checkout all the awesome products available now!</p>
         </div>
-
-        <table class="table table-striped table-hover">
-            <thead>
-            <tr class="bg-success">
+<div class="table-responsive">
+        <table border="2">
+            <thead class="thead-inverse">
+            <tr>
                 <th>Photo Thumb</th>
                 <th>Product Name</th>
                 <th>Category</th>
@@ -33,6 +32,7 @@
                 <th></th>
             </tr>
             </thead>
+            <tbody>
             <c:forEach items="${products}" var="product">
                 <tr>
                     <td><img src="<c:url value="/resources/images/${product.productId}.png" /> " alt="image"
@@ -45,6 +45,7 @@
                     ><span class="glyphicon glyphicon-info-sign"></span></a></td>
                 </tr>
             </c:forEach>
+            </tbody>
         </table>
-
+</div>
 <%@include file="/WEB-INF/views/template/footer.jsp" %>

@@ -4,9 +4,6 @@ import com.emusicstore.model.Product;
 
 import java.util.List;
 
-/**
- * Created by Le on 1/24/2016.
- */
 public interface ProductService {
 
     List<Product> getProductList();

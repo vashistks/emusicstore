@@ -8,10 +8,6 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-/**
- * Created by Le on 1/24/2016.
- */
-
 @Service
 public class ProductServiceImpl implements ProductService {
 

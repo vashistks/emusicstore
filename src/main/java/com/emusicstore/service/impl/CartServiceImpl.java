@@ -6,9 +6,6 @@ import com.emusicstore.service.CartService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-/**
- * Created by Le on 1/25/2016.
- */
 
 @Service
 public class CartServiceImpl implements CartService {
