@@ -20,9 +20,9 @@
             <p class="lead">This is the product inventory page!</p>
         </div>
 
-        <table class="table table-striped table-hover">
+        <table border="2">
             <thead>
-            <tr class="bg-success">
+            <tr>
                 <th>Photo Thumb</th>
                 <th>Product Name</th>
                 <th>Category</th>

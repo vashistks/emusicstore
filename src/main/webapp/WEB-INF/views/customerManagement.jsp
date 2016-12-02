@@ -11,9 +11,9 @@
             <p class="lead">This is the customer management page.</p>
         </div>
 
-        <table class="table table-striped table-hover">
+        <table border="2">
             <thead>
-            <tr class="bg-success">
+            <tr>
                 <th>Name</th>
                 <th>Email</th>
                 <th>Phone</th>

@@ -42,7 +42,6 @@
                     </c:if>
 
                     <p ng-controller="cartCtrl">
-                        <a href="<c:url value="${url}" />" class="btn btn-default">Back</a>
                         <a href="#" class="btn btn-warning btn-large"
                            ng-click="addToCart('${product.productId}')"><span
                                 class="glyphicon glyphicon-shopping-cart"></span>Order
